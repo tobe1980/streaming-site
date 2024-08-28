@@ -80,7 +80,7 @@ h1 {
   background-color: #ffbb54;
 }
 .row {
-  margin: 289.04px;
+  margin: 50px;
   color: #ffffff;
 }
 .column {
@@ -131,10 +131,12 @@ h1 {
 .index {
   color: #00ff94;
   text-align: center;
+  font-size: 50px;
+  font-weight: 1000px;
 }
 .watch {
   color: white;
-  text-align: end;
+  text-align: center;
 }
 .some {
   text-align: center;
@@ -273,7 +275,8 @@ h1 {
   color: #ffffff;
 }
 #set {
-  margin-left: 150px;
+  display: flex;
+  justify-content: space-evenly;
 }
 #art {
   display: flex;
@@ -290,4 +293,15 @@ h1 {
 #cop {
   color: #c2c2c2;
   text-align: center;
+}
+#wire {
+  color: #ffffff;
+  margin: 50px;
+}
+#project {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cap {
+  padding: 50px;
 }
