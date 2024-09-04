@@ -82,12 +82,17 @@ h1 {
 .row {
   margin: 50px;
   color: #ffffff;
+  text-align: center;
 }
 .column {
   margin: 100px;
 }
 .fast {
   padding: 20px;
+  color: #ffffff;
+}
+.cast {
+  color: #ffffff;
 }
 .low {
   justify-content: space-between;
@@ -95,9 +100,12 @@ h1 {
 .content {
   color: #ffffff;
 }
+.pie {
+  display: flex;
+  gap: 10px;
+}
 .go {
-  color: #cb5cff;
-  color: #ffbb54;
+  color: #cb5cff #ffbb54;
   text-align: center;
 }
 .so {
@@ -248,9 +256,16 @@ h1 {
 #room {
   color: #ffffff;
   justify-content: baseline;
+  margin-top: 50px;
 }
 .footer {
   margin-left: 50px;
+  display: flex;
+  gap: 10px;
+}
+.music {
+  font-size: 50px;
+  font-weight: 1000px;
 }
 .tale {
   color: #ffffff;
@@ -304,4 +319,37 @@ h1 {
 }
 #cap {
   padding: 50px;
+}
+#videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 20px;
+  background-color: red;
+}
+#moviecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black {
+  background-color: red;
+  width: 181px;
+  height: 50px;
+}
+.white {
+  background-color: #ffffff;
+  width: 120px;
+  height: 50px;
+}
+.blue {
+  background-color: #ffffff;
+  width: 191px;
+  height: 50px;
+}
+#site {
+  margin: 20px;
+}
+.op {
+  color: white;
 }
